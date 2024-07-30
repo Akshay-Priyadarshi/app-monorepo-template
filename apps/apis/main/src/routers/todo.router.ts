@@ -1,6 +1,4 @@
-import { Request, Response, NextFunction, Router } from "express"
-import { ApiResponse } from "@/models/response.model"
-import { TodoService } from "@/services/todo.service"
+import { Router } from "express"
 import { TodoController } from "@/controllers/todo.controller"
 
 export class TodoRouter {

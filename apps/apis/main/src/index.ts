@@ -2,7 +2,6 @@ import express from "express"
 import cors from "cors"
 import { appLogger } from "@/utils/logger.util"
 import constants from "@/utils/constant.util"
-import { RootController } from "@/controllers/root.controller"
 import { errorMiddleware } from "./middlewares/error.middleware"
 import { RootRouter } from "./routers/root.router"
 

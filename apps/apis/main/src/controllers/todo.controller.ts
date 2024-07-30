@@ -1,4 +1,4 @@
-import { Request, Response, NextFunction, Router } from "express"
+import { Request, Response, NextFunction } from "express"
 import { ApiResponse } from "@/models/response.model"
 import { TodoService } from "@/services/todo.service"
 import { BadRequestError } from "@/models/error.model"
